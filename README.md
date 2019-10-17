@@ -14,6 +14,7 @@
 Write code that prints out all the numbers from 1 to 10 as a single string.
 (Hint: the `String()` function can convert an Int to a String)
 
+my answer 
 var numString = ""
 for num in 1...10{
     numString += String(num)
@@ -23,6 +24,8 @@ for num in 1...10{
 ## Question 2
 
 Write code that prints out all the even numbers from 5 to 51 as a single string.
+
+my answer ,
 var numString = ""
 for num in 5...51{
     if num % 2 == 0 {
@@ -34,6 +37,8 @@ print(numString)
 ## Question 3
 
 Write code that prints out every number ending in 4 between 1 and 60 as a single string.
+
+my answer 
 var numString = ""
 for num in 1...60{
     if num % 10 == 4 {
@@ -47,6 +52,8 @@ print(numString)
 Print each character in the string `"Hello world!"`
 var message = "Hello World !"
 
+my answer 
+
 var myString = "Hello World !"
 for char in myString {
     print(char)
@@ -58,6 +65,8 @@ for char in myString {
 Print out the last character in the string below.  You cannot use the Character literal "!" (i.e you must access `myStringSeven`'s characters).
 
 `let myStringSeven = "Hello world!"`
+
+my answer 
 
 let myStringSeven = "Hello Word!"
 let endOfIndex = myStringSeven[myStringSeven.index(before: myStringSeven.endIndex)]
@@ -83,6 +92,9 @@ Build five pairs of **canonically equivalent** strings, the first of each being 
 ## Question 9
 
 **Using only Unicode**, print out `"HELLO WORLD!"`
+
+my answer :
+
 let unicodeLowercase = "\u{0065}"
 let eCharacter = "e"
 if unicodeLowercase == eCharacter {
@@ -93,6 +105,8 @@ if unicodeLowercase == eCharacter {
 ## Question 10
 
 **Using only Unicode**, print out your name.
+my answer :
+
 let unicodeLowercase = "\u{0065}"
 let eCharacter = "e"
 if unicodeLowercase == eCharacter {
@@ -124,6 +138,8 @@ Flower Box:
 | ⚘ | ⚘ | ⚘ | ⚘ | ⚘ |
 - - - - - - - - - - -
 ```
+my answer :
+
 var dash = "---------------------"
 let flower = "| \u{2698} |"
 let flowerRow = "\(flower)\(flower)\(flower)\(flower)\(flower)\(flower)\(flower)\(flower)"
@@ -148,6 +164,8 @@ Chess Board:
 ♟ ♟ ♟ ♟ ♟ ♟ ♟ ♟
 ♜ ♞ ♝ ♛ ♚ ♝ ♞ ♜
 ```
+my answer :
+
 let rook = "\u{2656}"
 let knight = "\u{2658}"
 let bishop = "\u{2657}"
